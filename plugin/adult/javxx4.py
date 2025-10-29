@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+4# -*- coding: utf-8 -*-
 # by @嗷呜
 import gzip
 import html
@@ -327,3 +327,4 @@ class Spider(Spider):
         except Exception as e:
             print(f"{str(e)}")
             return pq(data.encode('utf-8'))
+
